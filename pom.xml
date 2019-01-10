@@ -4,7 +4,7 @@
 
     <groupId>net.devaction</groupId>
     <artifactId>vertx-utility-extensions</artifactId>
-    <version>1.0.0.0-SNAPSHOT</version>
+    <version>1.0.0.0</version>
     <packaging>jar</packaging>
 
     <url>http://devaction.net</url>
@@ -97,24 +97,6 @@
             </plugins>
         </pluginManagement>
         <plugins>
-            <!--plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <version>${maven.assembly.plugin.version}</version>
-                <configuration>
-                    <descriptors>
-                        <descriptor>assembly.xml</descriptor>
-                    </descriptors>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin-->
         </plugins>    
     </build>    
 </project>
