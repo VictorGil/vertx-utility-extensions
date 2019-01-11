@@ -45,7 +45,7 @@ public class MainVerticle extends AbstractVerticle{
                 ConfigValuesProviderImpl.setAppConfig(vertxConfig.getJsonObject(APPLICATION_CONFIGURATION));                
                 VertxProviderImpl.setVertx(vertx);
                 
-                ApplicationContext appContext = new ClassPathXmlApplicationContext("conf/spring/beans.xml");
+                ApplicationContext appContext = new ClassPathXmlApplicationContext("spring/beans.xml");
                 VerticlesBean verticlesBeans = (VerticlesBean) appContext.getBean("verticlesBean");
                 ((ConfigurableApplicationContext) appContext).close();                
                 
